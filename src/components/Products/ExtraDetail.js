@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
+import Card from './Card';
 import UnitDetails from './details/UnitDetails';
 import UnitDetailList from './details/UnitDetailList';
 import LocationDetail from './details/LocationDetail';
@@ -27,7 +28,11 @@ const ExtraDetail = () => {
                         <ColloborationList />
                         <Divider />
                     </Col>
-
+                    <Col lg={3}>
+                        <div className='sticky-top'>
+                            <Card isProduct={false} />
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </div>
