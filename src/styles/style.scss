@@ -1,0 +1,21 @@
+// variables import
+
+@import './variables/_variables.scss';
+@import './_global.scss';
+
+// components import
+
+@import './components/_header.scss';
+@import './components/_filterform.scss';
+@import './components/_buttons.scss';
+@import './components/_productlisting.scss';
+@import './components/_productcard.scss';
+@import './components/_carousel.scss';
+@import './components/_footer.scss';
+@import './components/_subscribeform.scss';
+@import './components/_collage.scss';
+@import './components/_unittesting.scss';
+
+// pages imports
+
+@import './pages/_home.scss'

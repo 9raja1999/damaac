@@ -1,0 +1,85 @@
+.carousel__image {
+
+    .carousel-inner {
+        background: green;
+        height: 100%;
+    }
+
+    .carousel-indicators {
+        button {
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+        }
+    }
+
+    .carousel-control-next {
+        visibility: hidden;
+    }
+
+    .carousel-control-prev {
+        visibility: hidden;
+    }
+
+    &:hover {
+        .carousel-control-next {
+            visibility: visible;
+        }
+
+        .carousel-control-prev {
+            visibility: visible;
+        }
+    }
+}
+
+.card__carousel__section {
+    min-height: 753px;
+    background-color: $grey;
+    padding: 50px 0px;
+
+    .section_heading {
+        color: $black;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 137.6%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .items__row {
+        margin-bottom: 30px;
+    }
+
+    .divider {
+        width: 100%;
+        height: 1px;
+        background-color: $golden;
+        margin-bottom: 20px;
+    }
+
+    .actionbtn__holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+            background-color: transparent;
+        }
+
+        button.view__all {
+            color: $golden;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 137.6%;
+            text-transform: uppercase;
+        }
+    }
+}
+
+/* the slides */
+.slick-slide {
+    // margin: 0 27px;
+    padding-right: 22px;
+}

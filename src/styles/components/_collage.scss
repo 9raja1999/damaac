@@ -1,0 +1,62 @@
+.image__collage__container {
+    padding-bottom: 30px;
+    min-height: 600px;
+    background-color: $white;
+    
+    div.image__one {
+        margin-top: 24px;
+        height: 600px;
+        
+        img {
+            width: 100%;
+            /* or any custom size */
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    
+    div.image__two {
+        margin-top: 24px;
+        height: 288px;
+        margin-bottom: 24px;
+
+        img {
+            width: 100%;
+            /* or any custom size */
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    div.image__three {
+        height: 288px;
+        margin-bottom: 0px;
+        position: relative;
+
+        img {
+            width: 100%;
+            /* or any custom size */
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.40);
+            position: absolute;
+            width: 100%;
+            top: 0px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                color: $white;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+    }
+}

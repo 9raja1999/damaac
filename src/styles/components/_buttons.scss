@@ -1,0 +1,143 @@
+button {
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.search__btn__container {
+    flex: 1;
+
+    button.btn {
+        background-color: $golden;
+        width: 100%;
+        border-radius: 4px;
+        color: $white;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 113.6%;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        height: 32px;
+    }
+}
+
+.outlined__btn {
+    min-width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid $black;
+    background: $white;
+    color: $black;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 113.6%;
+    /* 15.904px */
+    letter-spacing: 0.42px;
+}
+
+.fill__goldenbtn {
+    min-width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid $golden;
+    background: $golden;
+    color: $white;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 113.6%;
+    /* 15.904px */
+    letter-spacing: 0.42px;
+}
+
+.phonebtn {
+    border-radius: 2px;
+    border: 1px solid $golden;
+    background: #F7F6F1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: $fadedGrey;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99.6%;
+    padding: 8px 10px;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.mailbtn {
+    border-radius: 2px;
+    border: 1px solid #555;
+    background: #F7F6F1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: $fadedGrey;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99.6%;
+    padding: 8px 10px;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.whatsappbtn {
+    border-radius: 2px;
+    background: #55B752;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: $white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99.6%;
+    padding: 8px 10px;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.paymentbtn {
+    border-radius: 2px;
+    background: #C3AD75;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: $white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 99.6%;
+    padding: 8px 10px;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.wishlistbtn {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}

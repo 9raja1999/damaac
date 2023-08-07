@@ -15,14 +15,22 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "antd": "^5.8.2",
+    "bootstrap": "^5.3.1",
     "gatsby": "^5.11.0",
+    "gatsby-plugin-antd": "^2.2.0",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-sass": "^6.11.0",
     "gatsby-plugin-sharp": "^5.11.0",
+    "gatsby-remark-responsive-iframe": "^6.11.1",
     "gatsby-source-filesystem": "^5.11.0",
+    "gatsby-transformer-remark": "^6.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.64.2"
+    "react-slick": "^0.29.0",
+    "sass": "^1.64.2",
+    "slick-carousel": "^1.8.1"
   }
 }
