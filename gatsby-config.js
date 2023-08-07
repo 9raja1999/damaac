@@ -2,6 +2,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix  :"/damaac",
   siteMetadata: {
     title: `Damaac`,
     siteUrl: `https://www.yourdomain.tld`
@@ -15,7 +16,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "images",
-        "path": "./src/images/"
+        "path": `${__dirname}/src/images/`
       },
       __key: "images"
     },
