@@ -5,7 +5,9 @@ import { DropDownIcon } from '../../../constants/svg/icons'
 import ResetBtn from '../buttons/ResetBtn';
 import ApplyBtn from '../buttons/ApplyBtn';
 
-const SelectContent = ({ handleApply }) => {
+const SelectContent = ({ handleApply, }) => {
+
+
     return <div>
         <div className='select__content__body'>
             <ul className='list'>
@@ -15,6 +17,7 @@ const SelectContent = ({ handleApply }) => {
                             <Form.Check
                                 label={idx + 1}
                                 name="group1"
+                                value={idx + 1}
                                 type="checkbox"
                             />
                         </li>
@@ -31,7 +34,7 @@ const SelectContent = ({ handleApply }) => {
 }
 
 
-const SelectDropdown = ({ width, label }) => {
+const SelectDropdown = ({ width, label, }) => {
     const [open, setOpen] = useState(false)
 
 

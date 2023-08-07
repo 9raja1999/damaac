@@ -3,7 +3,7 @@ import React from 'react';
 const EmailBtn = () => {
     return (
         <button className='mailbtn'>
-            <img src='/mail.png' alt="mail icon" /> Email
+            <img src='/damaac/mail.png' alt="mail icon" /> Email
         </button>
     );
 };

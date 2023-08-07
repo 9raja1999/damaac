@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import SelectDropdown from './dropdowns/SelectDropdown';
 import SearchBtn from './buttons/SearchBtn';
 
 const FilterForm = () => {
+
+
+
     return (
         <div className='filter__form'>
             <Container>

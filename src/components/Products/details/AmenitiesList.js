@@ -9,7 +9,7 @@ const AmenitiesList = () => {
                 {
                     Array(20).fill('').map((el, idx) => (
                         <li key={idx}>
-                            <img src='/deceased.png' />
+                            <img src='/damaac/deceased.png' />
                             <span className="right">Private Garden</span>
                         </li>
                     ))

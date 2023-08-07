@@ -10,21 +10,21 @@ const ImageCarousel = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={'/slider1.png'}
+                    src={'/damaac/slider1.png'}
                     alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={'/slider1.png'}
+                    src={'/damaac/slider1.png'}
                     alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={'/slider1.png'}
+                    src={'/damaac/slider1.png'}
                     alt="First slide"
                 />
             </Carousel.Item>

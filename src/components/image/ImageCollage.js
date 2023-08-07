@@ -9,7 +9,7 @@ const ImageCollage = () => {
                     <Col lg={8}>
                         <div className='image__one'>
                             <img
-                                src='/variant1.png'
+                                src='/damaac/variant1.png'
                                 alt="variants"
                             />
                         </div>
@@ -17,13 +17,13 @@ const ImageCollage = () => {
                     <Col lg={4}>
                         <div className='image__two'>
                             <img
-                                src='/variant2.png'
+                                src='/damaac/variant2.png'
                                 alt="variants"
                             />
                         </div>
                         <div className='image__three'>
                             <img
-                                src='/variant2.png'
+                                src='/damaac/variant2.png'
                                 alt="variants"
                             />
                             <div className='overlay'>
