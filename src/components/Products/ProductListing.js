@@ -26,26 +26,35 @@ const ProductListing = ({ searchData }) => {
         }
         return true;
     }
+
+
+    const filteredData = data.filter(handleFilterData);
+
+
+
     return (
         <div className='product__listing__container'>
             <Container>
                 <Row>
                     <Col lg={12}>
                         <div className='sort__container'>
-                           <SortBtn />
+                            <SortBtn />
                         </div>
                     </Col>
                 </Row>
                 <Row className='gy-5'>
-                    {
-                        data.filter(handleFilterData).map((el, idx) => (
+                   
+                    {filteredData.length === 0 ? (
+                        <Col>
+                            <p>No products match the search criteria.</p>
+                        </Col>
+                    ) : (
+                        filteredData.map((el, idx) => (
                             <Col key={idx} sm={12} lg={4} xl={3}>
-                                <Card
-                                    data={el}
-                                    isProduct={true} />
+                                <Card data={el} isProduct={true} />
                             </Col>
                         ))
-                    }
+                    )}
                 </Row>
             </Container>
         </div>
