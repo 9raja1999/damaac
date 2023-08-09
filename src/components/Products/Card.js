@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Col } from 'react-bootstrap'
 import { navigate } from 'gatsby'
 import WishlistBtn from '../wishlist/WishlistBtn';
@@ -7,32 +7,41 @@ import ProductCardBody from './CardBody';
 import ProductCardFooter from './CardFooter';
 
 
-const Card = ({ isProduct }) => {
+const Card = ({ isProduct, children, data }) => {
 
     const goToProductDetail = () => navigate('/productDetail')
 
 
     return (
 
-        <div className={`product__card ${isProduct && 'with__label'} `}>
+        <div className={`product__card ${isProduct && 'with__label'} `} onClick={goToProductDetail}>
             {
                 isProduct && <>
                     <div className='top__handles'>
                         <WishlistBtn />
-                        <div className='ribbon'>
+                        <div className='ribbon' onClick={(e) => e.stopPropagation()}>
                             Golden Visa
                         </div>
                     </div>
-                    <div className='card__header'>
-                        <ImageCarousel />
+                    <div className='card__header' onClick={(e) => e.stopPropagation()}>
+                        <ImageCarousel goToProductDetail={goToProductDetail} />
                     </div>
                 </>
             }
 
-            <ProductCardBody goToProductDetail={goToProductDetail} />
+            {
+                isProduct && <ProductCardBody
+                    data={data}
+                />
+            }
+
+            {
+                !isProduct && <div>{children}</div>
+            }
+
             <ProductCardFooter />
         </div>
     );
 };
 
-export default Card;
+export default memo(Card);

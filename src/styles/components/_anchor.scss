@@ -1,0 +1,18 @@
+.back__anchor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+    p {
+        color: $black;
+        font-family: 'Spectral', serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 113.6%;
+        /* 15.904px */
+        letter-spacing: 0.42px;
+    }
+}

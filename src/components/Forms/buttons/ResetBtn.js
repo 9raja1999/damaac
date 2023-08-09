@@ -1,8 +1,10 @@
 import React from 'react';
 
-const ResetBtn = () => {
+const ResetBtn = ({ onClick }) => {
     return (
-        <button className='outlined__btn'>RESET</button>
+        <button
+            onClick={onClick}
+            className='outlined__btn'>RESET</button>
     );
 };
 

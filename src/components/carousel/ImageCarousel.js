@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap'
 
-const ImageCarousel = () => {
+const ImageCarousel = ({goToProductDetail}) => {
     return (
         <Carousel
             interval={null}
@@ -12,20 +12,23 @@ const ImageCarousel = () => {
                     className="d-block w-100"
                     src={'/damaac/slider1.png'}
                     alt="First slide"
-                />
+                    onClick={goToProductDetail}
+                    />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
                     src={'/damaac/slider1.png'}
                     alt="First slide"
-                />
+                    onClick={goToProductDetail}
+                    />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
                     src={'/damaac/slider1.png'}
                     alt="First slide"
+                    onClick={goToProductDetail}
                 />
             </Carousel.Item>
         </Carousel>

@@ -1,0 +1,10 @@
+.anchor__holder {
+    background-color: $white;
+    padding: 24px 0px;
+    .inner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

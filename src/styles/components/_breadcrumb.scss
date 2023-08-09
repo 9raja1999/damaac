@@ -1,0 +1,38 @@
+.bread__crumb {
+
+
+    .ant-breadcrumb{
+        // border: 1px solid red;
+        ol{
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            li{
+                padding: 0px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .ant-breadcrumb-link {
+
+        &:hover{
+            background-color: transparent;
+        }
+        a {
+            text-decoration: none !important;
+            color: $linkColor;
+            font-family: 'Spectral', serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 113.6%;
+            /* 15.904px */
+            letter-spacing: 0.42px;
+           
+
+            &:hover{
+                background-color: transparent;
+            }
+        }
+    }
+}

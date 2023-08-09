@@ -3,8 +3,9 @@ import { HeartIcon } from '../../constants/svg/cardicons'
 
 
 const WishlistBtn = () => {
+    const btnClick = (e) => e.stopPropagation()
     return (
-        <button className='wishlistbtn'>
+        <button className='wishlistbtn' onClick={btnClick}>
             <HeartIcon />
         </button>
     );

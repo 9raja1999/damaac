@@ -29,8 +29,13 @@ const ExtraDetail = () => {
                         <Divider />
                     </Col>
                     <Col lg={3}>
-                        <div className='sticky-top'>
-                            <Card isProduct={false} />
+                        <div className='sticky-top box__shadow'>
+                            <Card isProduct={false}>
+                                <div className='card__body'>
+                                    <h2 className='pricing'>AED 1,320,000</h2>
+                                    <p className='location faded'>Starting Price </p>
+                                </div>
+                            </Card>
                         </div>
                     </Col>
                 </Row>

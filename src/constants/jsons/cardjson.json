@@ -1,0 +1,66 @@
+[
+    {
+        "price" : 1320000,
+        "currency" : "AED",
+        "location" : "Canal Crown, Business Bay, Dubai ",
+        "bedroom" : 1,
+        "property_type" : "furnished",
+        "floor_area" : 10000
+    },
+    {
+        "price" : 1240000,
+        "currency" : "AED",
+        "location" : "Canal Crown, Business Bay, Dubai ",
+        "bedroom" : 2,
+        "property_type" : "unfurnished",
+        "floor_area" : 11000
+    },
+    {
+        "price" : 1260000,
+        "currency" : "AED",
+        "location" : "Canal Crown, Business Bay, Dubai ",
+        "bedroom" : 3,
+        "property_type" : "furnished",
+        "floor_area" : 10000
+    },
+    {
+        "price" : 134568,
+        "currency" : "AED",
+        "location" : "Canal Crown, Business Bay, Dubai ",
+        "bedroom" : 1,
+        "property_type" : "furnished",
+        "floor_area" : 10000
+    },
+    {
+        "price" : 123452,
+        "currency" : "AED",
+        "location" : "Canal Crown, Business Bay, Dubai ",
+        "bedroom" : 1,
+        "property_type" : "unfurnished",
+        "floor_area" : 20000
+    },
+    {
+        "price" : 456789,
+        "currency" : "AED",
+        "location" : "Canal Crown, Business Bay, Dubai ",
+        "bedroom" : 4,
+        "property_type" : "furnished",
+        "floor_area" : 10000
+    },
+    {
+        "price" : 9876543,
+        "currency" : "AED",
+        "location" : "Canal Crown, Business Bay, Dubai ",
+        "bedroom" : 1,
+        "property_type" : "unfurnished",
+        "floor_area" : 10000
+    },
+    {
+        "price" : 452367,
+        "currency" : "AED",
+        "location" : "Canal Crown, Business Bay, Dubai ",
+        "bedroom" : 8,
+        "property_type" : "furnished",
+        "floor_area" : 20000
+    }
+]

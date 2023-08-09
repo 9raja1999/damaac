@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'gatsby'
 import { BlackVariant } from '../../constants/svg/logo'
 
 
@@ -9,7 +10,11 @@ const Header = () => {
             <Container>
                 <Row>
                     <Col lg={12} className='logo__container'>
-                        <BlackVariant />
+                        <Link
+                            to='/'
+                        >
+                            <BlackVariant />
+                        </Link>
                     </Col>
                 </Row>
             </Container>
