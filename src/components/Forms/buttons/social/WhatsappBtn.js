@@ -1,4 +1,5 @@
 import React from 'react';
+import WhatsAppIcon from '../../../../images/WhatsApp.png'
 
 const WhatsappBtn = () => {
 
@@ -6,7 +7,7 @@ const WhatsappBtn = () => {
 
     return (
         <button className='whatsappbtn' onClick={btnClick}>
-            <img src='/damaac/WhatsApp.png' alt='whatsapp icon' /> Whatsapp
+            <img src={WhatsAppIcon} alt='whatsapp icon' /> Whatsapp
         </button>
     );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap'
+import Slider1 from '../../images/slider1.png'
 
 const ImageCarousel = ({goToProductDetail}) => {
     return (
@@ -10,7 +11,7 @@ const ImageCarousel = ({goToProductDetail}) => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={'/damaac/slider1.png'}
+                    src={Slider1}
                     alt="First slide"
                     onClick={goToProductDetail}
                     />
@@ -18,7 +19,7 @@ const ImageCarousel = ({goToProductDetail}) => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={'/damaac/slider1.png'}
+                    src={Slider1}
                     alt="First slide"
                     onClick={goToProductDetail}
                     />
@@ -26,7 +27,7 @@ const ImageCarousel = ({goToProductDetail}) => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={'/damaac/slider1.png'}
+                    src={Slider1}
                     alt="First slide"
                     onClick={goToProductDetail}
                 />

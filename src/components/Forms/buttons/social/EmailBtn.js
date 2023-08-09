@@ -1,4 +1,6 @@
 import React from 'react';
+import EmailIcon from '../../../../images/mail.png'
+
 
 const EmailBtn = () => {
 
@@ -6,7 +8,7 @@ const EmailBtn = () => {
 
     return (
         <button className='mailbtn' onClick={btnClick}>
-            <img src='/damaac/mail.png' alt="mail icon" /> Email
+            <img src={EmailIcon} alt="mail icon" /> Email
         </button>
     );
 };
